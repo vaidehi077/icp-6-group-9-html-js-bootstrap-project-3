@@ -1,3 +1,16 @@
-.body{
-    background-color: black;
+body{
+    background-color: aqua;
+}
+.navbar{
+    height: 80px;
+}
+
+.logo{
+    height: 120px;
+    margin-top: -40px;
+    margin-left: -10px;
+}
+.slide-img{
+    height: 10px;
+
 }
