@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: aqua;
-}
+} */
 .navbar{
     height: 80px;
 }
@@ -13,4 +13,7 @@ body{
 
 .card{
     width: 250px;
+}
+.lp-img{
+    height: 180px;
 }
