@@ -18,3 +18,11 @@
 .lp-img{
     height: 180px;
 }
+.cart{
+    border-radius: 50%;
+    height: 70px;
+    border: 1px solid black;
+    margin-left: 1580px;
+    margin-top: 20px;
+    
+}
