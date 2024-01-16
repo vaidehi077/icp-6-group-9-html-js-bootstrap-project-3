@@ -13,6 +13,9 @@
 .card{
     width: 250px;
 }
+.arrow{
+    height: 50px;
+}
 .lp-img{
     height: 180px;
 }
@@ -29,4 +32,17 @@
 }
 .right{
     margin-top: -40px;
+}
+.phones{
+    height: 250px;
+    width: 200px;
+}
+.star-div{
+    bottom: 410px;
+    left: 195px;
+}
+.star-img{
+    height: 40px;
+    width: 90px; 
+    
 }
