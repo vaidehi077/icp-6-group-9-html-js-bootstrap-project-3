@@ -4,15 +4,15 @@
 .navbar{
     height: 80px;
 }
-.logo{
-    height: 120px;
-    margin-top: -40px;
-    margin-left: -10px;
-}
 .new{
     border: 1px solid brown;
     font-size: 15px;
     color: white;
+}
+.logo{
+    height: 120px;
+    margin-top: -40px;
+    margin-left: -10px;
 }
 .rating-img{
     height: 25px;
@@ -20,7 +20,7 @@
 }
 .add-btn{
     background-color: #FA8900;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 81, 0);
     padding: 1px;
     border-radius: 5px;
     height: 28px;
@@ -31,3 +31,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 21px;
 }
+.add-btn:hover {
+    background-color: gold;
+  }
+  .mainImg{
+    /* width: 500px; */
+    height: 600px;
+  }
+  .mainImg1{
+    width: 700px;
+  }
