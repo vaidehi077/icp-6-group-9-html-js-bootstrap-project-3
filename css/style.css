@@ -38,11 +38,18 @@
     width: 200px;
 }
 .star-div{
-    bottom: 410px;
-    left: 195px;
+    bottom: 370px;
+    left: 167px;
 }
 .star-img{
     height: 40px;
-    width: 90px; 
+    width: 90px;   
+}
+.seller-div{
+    bottom: 253px;
+    left: 180px;
     
+}
+.sell{
+    font-size: 12px;
 }
