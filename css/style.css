@@ -62,3 +62,15 @@
 .sell{
     font-size: 12px;
 }
+
+.moon-div{
+    background-color: transparent;
+}
+.moon{
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+
+
+}
