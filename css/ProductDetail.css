@@ -1,6 +1,14 @@
 .product-title{
     margin: 50%;
 }
+.navbar{
+    height: 80px;
+}
+.logo{
+    height: 120px;
+    margin-top: -40px;
+    margin-left: -10px;
+}
 .new{
     border: 1px solid brown;
     font-size: 15px;
