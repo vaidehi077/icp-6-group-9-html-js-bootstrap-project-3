@@ -7,3 +7,11 @@
     margin-top: -40px;
     margin-left: -10px;
 }
+.sec{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 20px;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+}
