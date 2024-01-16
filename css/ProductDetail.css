@@ -1,0 +1,25 @@
+.product-title{
+    margin: 50%;
+}
+.new{
+    border: 1px solid brown;
+    font-size: 15px;
+    color: white;
+}
+.rating-img{
+    height: 25px;
+    margin-top: -50px;
+}
+.add-btn{
+    background-color: #FA8900;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 5px;
+    height: 28px;
+    width: 150px;
+    box-shadow: 1px 0px 5px peru;
+}
+#color-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+}
