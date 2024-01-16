@@ -31,3 +31,8 @@
     border-radius: 7px;
 
 }
+.correct-img{
+    height: 200px;
+    display: block;
+    margin: auto auto;
+}
