@@ -20,6 +20,11 @@
     height: 50px;
     
 }
+.a:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
 .lp-img{
     height: 180px;
 }
