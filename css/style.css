@@ -10,11 +10,15 @@
     margin-top: -40px;
     margin-left: -10px;
 }
+.product{
+    height: 550px;
+}
 .card{
     width: 250px;
 }
 .arrow{
     height: 50px;
+    
 }
 .lp-img{
     height: 180px;
