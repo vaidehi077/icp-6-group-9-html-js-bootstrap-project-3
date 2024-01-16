@@ -1,4 +1,4 @@
-##icp-6-group-9-html-js-bootstrap-project-3
+### icp-6-group-9-html-js-bootstrap-project-3
 
 **GADGET GROVE**
 
