@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbarp-3 pt-4   bg-dark text-white text-center">
+    <nav class="navbarp-3 pt-5   bg-dark text-white text-center">
         <div class="d-flex flex-row justify-content-between ">
             <img src="/Images/mobilepic/logo.png" class="logo" />
             <div class="ps-5 ms-5 ">
@@ -47,8 +47,8 @@
     </nav>
     <section class="Product container my-4 pt-4">
         <div style="display: flex;">
-            <div class="col-lg-4 col-md-12 col-12">
-                <img src="/Images/mobilepic/mainpic.jpg" class="img1 w-90 pb-1">
+            <div class="mainImg1" >
+                <img src="/Images/mobilepic/mainpic.jpg"  id="changeImg" class="mainImg">
             </div>
             <div>
                 <span class="product-title">
@@ -77,16 +77,31 @@
                         </span>
                     </div>
                     <div style="display: flex; margin-left: 30px;">
-                        <button type="button" class="add-btn ">Add to Cart</button>
+                        <button type="button" class="add-btn" onclick="add()">Add to Cart</button>
                     </div>
                 </div><br>
                 <div class="color" style="display: flex;">
                     <p id="color-text">Color: <span class="color-img">
-                         <img src="/Images/mobilepic/blue.jpg">
-                         <img src="/Images/mobilepic/red.jpg" >
-                         <img src="/Images/mobilepic/yellow.jpg" >
+                        <img src="/Images/mobilepic/midnight.jpg" onclick="blackBtn()" id="black" >
+                         <img src="/Images/mobilepic/blue.jpg" onclick="blueBtn()" id="blue">
+                         <img src="/Images/mobilepic/red.jpg" onclick="redBtn()" id="red">
+                         <img src="/Images/mobilepic/yellow.jpg" onclick="yellowBtn()" id="yellow">
                         </span>
                     </p>
+                </div>
+                <div class="product-description">
+                    <span>
+                        <h2>About this item</h2>
+                        <ul>
+                          <li>16.95 cm (6.7-inch) Super Retina XDR display</li>
+                          <li>Advanced camera system for better photos in any light</li>
+                          <li>Cinematic mode now in 4K Dolby Vision up to 30 fps</li>
+                          <li>Action mode for smooth, steady, handheld videos</li>
+                          <li>All-day battery life and up to 20 hours of video playback</li>
+                          <li>Industry-leading durability features with Ceramic Shield and water resistance</li>
+                        </ul>                        
+                    </span>
+
                 </div>
                 
     </section>
@@ -169,6 +184,26 @@
             }
 
         }
+       function add(){
+        alert("Your item is successfully added!")
+        }
+
+
+        function blackBtn(){
+        document.getElementById('changeImg').src = '/Images/mobilepic/mainpic.jpg';
+      }
+    
+        function blueBtn(){
+        document.getElementById('changeImg').src = '/Images/mobilepic/bluephn.png';
+    
+        }
+
+        function yellowBtn(){
+        document.getElementById('changeImg').src = '/Images/mobilepic/yellowphn.png';
+    }
+    function redBtn(){
+        document.getElementById('changeImg').src = '/Images/mobilepic/redphn.png';
+    }
     </script>
 </body>
 
