@@ -18,3 +18,11 @@
 .right{
     margin-top: -40px;
 }
+.bt{
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+
+}
