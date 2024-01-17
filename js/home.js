@@ -124,5 +124,3 @@ btn.addEventListener('click', function onClick(event) {
   }
 });
 
-// Note: Make sure that the 'nav' and 'footer' elements have the correct ids in your HTML
-// Example: <nav id="nav">...</nav> and <footer id="footer">...</footer>
