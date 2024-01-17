@@ -13,9 +13,15 @@ btn.addEventListener('click', function onClick(event) {
     // Reversed state: black background, white text
     document.body.style.backgroundColor = 'black';
     document.body.style.color = 'white';
+    document.nav.style.backgroundColor = 'white';
+    document.nav.style.color = 'black';
+    
+
   } else {
     // Original state: (You can set your original background and text colors here)
-    document.body.style.backgroundColor = 'white';  // Set your original background color
-    document.body.style.color = 'black';  // Set your original text color
+    document.body.style.backgroundColor = 'white';  
+    document.body.style.color = 'black';  
+    document.nav.style.backgroundColor = 'black';
+    document.nav.style.color = 'white';
   }
 });
