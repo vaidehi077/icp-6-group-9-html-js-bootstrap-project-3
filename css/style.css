@@ -75,13 +75,17 @@ a{
 
 }
 .home{
-    text-decoration: none;
+    text-decoration: none !important;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 .moon{
     height: 50px;
     background-color: white;
     border-radius: 50%;
-    padding: 10px;
+    padding: 11px;
 
 
 }
