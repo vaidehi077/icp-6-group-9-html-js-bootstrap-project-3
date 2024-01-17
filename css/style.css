@@ -3,6 +3,7 @@
 } */
 a{
     text-decoration: none;
+    
 }
 .navbar{
     height: 80px;
@@ -74,13 +75,13 @@ a{
     left: 30px;
 
 }
-.home{
+/* .home{
     text-decoration: none !important;
     color: black;
     background-color: white;
     padding: 10px;
     border-radius: 20px;
-}
+} */
 .moon{
     height: 50px;
     background-color: white;
