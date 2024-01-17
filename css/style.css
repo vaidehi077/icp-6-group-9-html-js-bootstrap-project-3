@@ -32,10 +32,12 @@ a{
     height: 180px;
 }
 .cart{
-    border-radius: 50%;
-    height: 60px;
     margin-left: 1580px;
-    margin-top: 20px;   
+    margin-top: 20px;  
+    height: 65px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px; 
 }
 .msg{
     top: 130px;
